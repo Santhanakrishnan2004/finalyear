@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home - ASD Prediction Tool</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav>
+        <p>
+            <a href="{{ url_for('login') }}">Login</a> | 
+            <a href="{{ url_for('register') }}">Register</a> | 
+            <a href="{{ url_for('prediction') }}">Go to Prediction System</a>
+        </p>
+    </nav>
+    <header>
+        <h1>Welcome to the ASD Prediction Tool</h1>
+    </header>
+
+   
+
+    <main>
+        <section>
+            <h2>About Our Project: ASD Prediction Tool</h2>
+            <p>
+                Autism Spectrum Disorder (ASD) is a developmental condition that affects communication, behavior, and social interaction. Early diagnosis and intervention can significantly improve the quality of life for individuals with ASD and their families. However, identifying ASD at an early stage can be challenging due to the complexity of symptoms and the need for specialized assessments.
+            </p>
+            <p>
+                Our project aims to simplify this process by leveraging machine learning and data-driven insights to provide a reliable ASD prediction tool. This tool uses key inputs such as behavioral patterns, medical history, and demographic factors to predict the likelihood of ASD in children.
+            </p>
+        </section>
+        <section>
+            <h3>Q-CHAT Integration</h3>
+            <p>
+                The prediction system leverages the Quantitative Checklist for Autism in Toddlers (Q-CHAT), developed by Cambridge University, to enhance accuracy in identifying Autism Spectrum Disorder.
+            </p>
+            <p>
+                <a href="../static/asd.pdf" download="asd.pdf" class="btn">Download ASD checklist pdf for prediction </a>
+            </p>
+        </section>
+        <section>
+            <h3>Key Features of the Tool</h3>
+            <ul>
+                <li><strong>Behavioral Analysis:</strong> Evaluates responses to questions regarding the child’s eye contact, response to name, and interaction with their environment.</li>
+                <li><strong>Demographic Insights:</strong> Considers factors like ethnicity, sex, and family medical history to enhance prediction accuracy.</li>
+                <li><strong>Medical Indicators:</strong> Includes important details such as jaundice history and age in months.</li>
+                <li><strong>Machine Learning Integration:</strong> Powered by advanced classification models that analyze patterns in the data to make accurate predictions.</li>
+                <li><strong>User-Friendly Interface:</strong> Combines Streamlit for a dynamic and interactive user interface with Flask for robust backend operations.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Objectives</h3>
+            <ul>
+                <li><strong>Early Detection:</strong> Assist caregivers and medical professionals in identifying ASD risk factors at an early stage.</li>
+                <li><strong>Accessibility:</strong> Provide an easy-to-use platform that is accessible to users without extensive medical knowledge.</li>
+                <li><strong>Data-Driven Decisions:</strong> Enhance decision-making through reliable predictions backed by machine learning models.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Technology Stack</h3>
+            <ul>
+                <li><strong>Frontend:</strong> HTML, CSS, Bootstrap</li>
+                <li><strong>Backend:</strong> Flask for routing and server-side operations</li>
+                <li><strong>Interactive UI:</strong> Streamlit for user input and live predictions</li>
+                <li><strong>Machine Learning:</strong> Classification models for ASD prediction</li>
+                <li><strong>Deployment:</strong> Scalable and accessible on both local and cloud platforms</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Vision</h3>
+            <p>
+                To empower families and medical professionals with a cost-effective, user-friendly, and reliable tool that aids in the early diagnosis of Autism Spectrum Disorder, fostering timely interventions and better developmental outcomes.
+            </p>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ASD Prediction Tool by SAKHI. All rights reserved.</p>
+    </footer>
+</body>
+</html>
